@@ -10,7 +10,7 @@ import javax.annotation.PostConstruct;
 
 @SpringBootApplication
 public class SpringJenkinsApplication {
-
+	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplication.class);
 
 	@PostConstruct
 	public void init(){
